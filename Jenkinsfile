@@ -14,7 +14,7 @@ pipeline {
                     ls -la
                     node --version
                     npm --version
-                    npm install pacakage.json
+                    npm install package.json
                     npm run build
                     ls -la
                 '''
